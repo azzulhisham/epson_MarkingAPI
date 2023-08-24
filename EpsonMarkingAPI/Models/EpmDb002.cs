@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+
+namespace EpsonMarkingAPI.Models
+{
+    /// <summary>
+    /// EPMDB002 Database
+    /// </summary>
+    public class EpmDb002
+    {
+        public string SpecNo { get; set; }
+        public string GColumn { get; set; }
+        public string DataProperty { get; set; }
+        public string DataFormat { get; set; }
+    }
+}
